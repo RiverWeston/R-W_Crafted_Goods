@@ -1,40 +1,125 @@
 body {
-    background-image: url(https://img.freepik.com/free-photo/neutral-abstract-texture-simple-background_53876-101899.jpg?w=1800&t=st=1655648690~exp=1655649290~hmac=d538ef3cb67bb383ee8d1b31fe3503cf317674249ab013976a6112226e008792);
-    background-size: cover;
-    font-family: "Optima";
+  background-image: url(https://img.freepik.com/free-photo/neutral-abstract-texture-simple-background_53876-101899.jpg?w=1800&t=st=1655648690~exp=1655649290~hmac=d538ef3cb67bb383ee8d1b31fe3503cf317674249ab013976a6112226e008792);
+  background-size: cover;
+  font-family: "Optima";
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #969696;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .smaller-image {
-    width: 400px;
-    border: 10px solid black;
+  width: 200px;
+  border: 5px solid black;
 }
 
 h1 {
-    font-size: 100px;
-    color: black;
-    text-align: center;
+  font-size: 50px;
+  color: black;
+  text-align: center;
 }
 
 h2 {
-    font-size: 40px;
-    text-align: center;
-    color: rgb(120, 121, 124);
+  font-size: 25px;
+  text-align: center;
+  color: black;
 }
 
-h3 {
-    font-size: 30px;
-    text-align: center;
-    color: rgb(120, 121, 124);
+.products {
+  flex: 4;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 30px;
+  flex: 0 0 400px;
+  background-color: rgb(4, 248, 203);
+  text-align: center;
+  font-size: 30px;
 }
 
 .product-pictures {
-    width: 200px;
-    border: 5px solid black;
+  width: 300px;
+  height: 300px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.text-right {
+  text-align: right;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid black;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: #FDF8F5;
+}
+
+main {
+  padding: 60px 0;
+}
+
+#contact {
+  padding: 150px
 }
